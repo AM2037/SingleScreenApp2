@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SingleScreenApp2</string>
+    <string name="headline">Computer repair with a smile!</string>
+    <string name="products_services">We provide:</string>
+    <string name="products1">Laptops, PCS, phones</string>
+    <string name="products2">adapters, and chargers</string>
+    <string name="services1">Software maintenance</string>
+    <string name="services2">Hardware replacement</string>
+    <string name="contact">Contact us:</string>
+    <string name="store_name">Mr. Robot</string>
+    <string name="address">1010 Arcade St.</string>
+    <string name="address2">Brooklyn, NY 11224</string>
+    <string name="phone">1–800-eff-society</string>
+    <string name="email">fsociety@gmail.com</string>
+</resources>

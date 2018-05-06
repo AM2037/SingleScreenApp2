@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="horizontal"
+    tools:context="com.example.android.singlescreenapp2.MainActivity">
+
+    <ImageView
+        android:id="@+id/robot_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mr_robot"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/slogan_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/robot_image_view"
+        android:layout_centerInParent="true"
+        android:paddingTop="@dimen/padding"
+        android:text="@string/headline"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text2"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-condensed" />
+
+
+    <LinearLayout
+        android:id="@+id/services_offered"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/slogan_text_view"
+        android:layout_marginLeft="@dimen/padding"
+        android:layout_marginStart="@dimen/padding"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/padding2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:text="@string/products_services"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text1"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:text="@string/products1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text1"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:text="@string/products2"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text1"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:text="@string/services1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text1"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:text="@string/services2"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text1"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contact_info"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/slogan_text_view"
+        android:layout_marginEnd="@dimen/padding"
+        android:layout_marginRight="@dimen/padding"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/padding2">
+
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:text="@string/contact"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text1"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:id="@+id/web_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:text="@string/store_name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text1"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:id="@+id/street_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:text="@string/address"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text1"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:id="@+id/city_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:text="@string/address2"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text1"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed" />
+
+
+        <TextView
+            android:id="@+id/number_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:paddingBottom="@dimen/padding2"
+            android:text="@string/phone"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text1"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/hellofriend"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>
