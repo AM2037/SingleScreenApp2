@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/robot_image_view"
         android:layout_centerInParent="true"
-        android:paddingTop="@dimen/padding"
+        android:paddingTop="@dimen/padding3"
         android:text="@string/headline"
         android:textColor="@color/colorAccent"
         android:textSize="@dimen/text2"

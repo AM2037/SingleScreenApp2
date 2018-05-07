@@ -1,6 +1,7 @@
 <resources>
-    <dimen name="text1">18sp</dimen>
+    <dimen name="text1">16sp</dimen> <!-- was 18sp -->
     <dimen name="text2">24sp</dimen>
     <dimen name="padding">12dp</dimen>
     <dimen name="padding2">16dp</dimen>
+    <dimen name="padding3">24dp</dimen>
 </resources>

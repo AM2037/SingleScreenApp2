@@ -2,7 +2,7 @@
     <string name="app_name">SingleScreenApp2</string>
     <string name="headline">Computer repair with a smile!</string>
     <string name="products_services">We provide:</string>
-    <string name="products1">Laptops, PCS, phones</string>
+    <string name="products1">Computers, PCS, phones</string>
     <string name="products2">adapters, and chargers</string>
     <string name="services1">Software maintenance</string>
     <string name="services2">Hardware replacement</string>
